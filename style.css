@@ -1,0 +1,40 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.blue-color{
+color: rgb(158, 15, 5);
+padding-top: 0%;
+}
+
+section{
+   display: flex;
+}
+.hlaf-width{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+    
+}
+.hlaf-width img{
+    width: 60%;
+}
+.link-button {
+    text-decoration: none;
+background-color:rgb(206, 22, 9) ;
+padding: 10px 25px;
+border-radius: 5px;
+color: rgb(253, 253, 252);
+font-weight: 700;
+}
+
+.bodar-lft{
+    border-left: black;
+}
+
+#more{
+    font-size: 14px;
+    color: rgb(143, 142, 140);
+}

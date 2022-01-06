@@ -1,5 +1,6 @@
-body{
+body text{
     font-family: 'Poppins', sans-serif;
+ 
 }
 h1{
     font-size: 50px;
@@ -9,8 +10,13 @@ color: rgb(158, 15, 5);
 padding-top: 0%;
 }
 
-section{
-   display: flex;
+.flexible-container{
+ display: flex ;
+
+ gap: 15px;
+   
+  
+   
 }
 .hlaf-width{
     width: 50%;
@@ -20,10 +26,11 @@ section{
 }
 .hlaf-width img{
     width: 60%;
+   
 }
 .link-button {
     text-decoration: none;
-background-color:rgb(206, 22, 9) ;
+    background-color:rgb(206, 22, 9) ;
 padding: 10px 25px;
 border-radius: 5px;
 color: rgb(253, 253, 252);
@@ -38,3 +45,42 @@ font-weight: 700;
     font-size: 14px;
     color: rgb(143, 142, 140);
 }
+#text{
+    text-align: center;
+    text-size-adjust: 0px; }
+
+    .Mission{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+.fast-color{
+    background-color: navy;
+    border-radius: 20px;
+    text-align: center;
+    text-align: left;
+    height: 290px;
+    width: 320px;
+    font-family: font-family 'Poppins', sans-serif;}
+
+.Second-color{background-color: yellow;
+    border-radius: 20px;
+    text-align: center;
+    text-align: left;
+    height: 500px;
+    width: 500px;
+    height: 290px;
+    width: 320px;
+    font-family: font-family 'Poppins', sans-serif;}
+
+.third-color{
+    background-color: orange;
+    border-radius: 20px;
+    text-align: left;
+    height: 500px;
+    width: 500px;
+    height: 290px;
+    width: 320px;
+    font-family: font-family 'Poppins', sans-serif;}
+
+
+
